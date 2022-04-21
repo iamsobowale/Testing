@@ -10,7 +10,7 @@ const About = () => {
         },
         {
             title: "Gaming",
-            caption: 'we plan on housing multiples content creators & esports teams. We want to be able to support teams & players in various esports as we continue to grow & expand. \n Our end goal is to do everything we can to help players achieve their dreams & aspirations. \n For example, We have helped send: \n * 3 teams to Minnesota for the amateur LAN event. \n * 1 player to Maryland for a Super Smash Bros LAN event'
+            caption: 'we plan on housing multiples content creators & esports teams. We want to be able to support teams & players in various esports as we continue to grow & expand. {\n} Our end goal is to do everything we can to help players achieve their dreams & aspirations. \n For example, We have helped send: \n * 3 teams to Minnesota for the amateur LAN event. \n * 1 player to Maryland for a Super Smash Bros LAN event'
         },
         {
             title: "Apparel",
