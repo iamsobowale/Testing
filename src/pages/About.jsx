@@ -10,7 +10,7 @@ const About = () => {
         },
         {
             title: "Gaming",
-            caption: 'we plan on housing multiples content creators & esports teams. We want to be able to support teams & players in various esports as we continue to grow & expand. {"\n"} Our end goal is to do everything we can to help players achieve their dreams & aspirations. \n For example, We have helped send: "\n" * 3 teams to Minnesota for the amateur LAN event. \n * 1 player to Maryland for a Super Smash Bros LAN event'
+            caption: 'we plan on housing multiples content creators & esports teams. We want to be able to support teams & players in various esports as we continue to grow & expand. \n Our end goal is to do everything we can to help players achieve their dreams & aspirations. \n For example, We have helped send: \n * 3 teams to Minnesota for the amateur LAN event. \n * 1 player to Maryland for a Super Smash Bros LAN event'
         },
         {
             title: "Apparel",
@@ -26,7 +26,8 @@ const About = () => {
                 <h3 className=" font-bold text-2xl my-6">We have 3 important branches to our brand</h3>
                 <ol className=" list-none flex flex-col gap-8 md:text-xl ">
                     {points.map((point, index) => <li className=" leading-9 md:leading-[3rem]" key={index}>
-                        <span className=" font-bold">{`${index + 1} . ${point.title} - `}</span>{point.caption}
+                        <span className=" font-bold">{`${index + 1} . ${point.title} - `}</span>
+                        <pre style={{whiteSpace:'pre-wrap', fontSize:'inherit', color:'inherit', border:'initial', padding:'initial', fontFamily:'inherit'}} className=" w-full">{point.caption}</pre>
                     </li>)}
                 </ol>
             </div>
