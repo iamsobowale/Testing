@@ -1,5 +1,5 @@
 import { TitleSection } from "../components";
-import { TeamContainer } from "../containers";
+import { SponsorSection, TeamContainer } from "../containers";
 import { PageLayout } from "../layouts";
 
 const Team = () => {
@@ -8,6 +8,8 @@ const Team = () => {
             <TitleSection title='Our Team' caption='Meet the Brains Behind Above All Else' />
 
             <TeamContainer />
+
+            <SponsorSection/>
 
         </PageLayout>
     )

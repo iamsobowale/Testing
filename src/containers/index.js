@@ -8,6 +8,7 @@ import ContactSection from "./ContactSection";
 import ProductContainer from "./ProductContainer";
 import SideNav from "./SideNav";
 import TeamContainer from "./TeamContainer";
+import SponsorSection from "./SponsorSection";
 
 export  { HeaderContainer, 
     CtaContainer, 
@@ -18,5 +19,6 @@ export  { HeaderContainer,
     ContactSection, 
     ProductContainer,
     SideNav,
-    TeamContainer
+    TeamContainer,
+    SponsorSection
  };

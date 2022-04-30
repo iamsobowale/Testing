@@ -9,6 +9,7 @@ const Home = () => {
             {/* <VideoSection /> */}
             <TwitterSection />
             <AboutSection />
+            {/* <SponsorSection/> */}
             <ContactSection />
         </PageLayout>
     )

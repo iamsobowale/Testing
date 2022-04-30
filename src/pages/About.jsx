@@ -1,4 +1,6 @@
+import { SiDiscord } from 'react-icons/si'
 import { TitleSection } from "../components";
+import { SponsorSection } from "../containers";
 import { PageLayout } from "../layouts";
 
 const About = () => {
@@ -27,10 +29,19 @@ const About = () => {
                 <ol className=" list-none flex flex-col gap-8 md:text-xl ">
                     {points.map((point, index) => <li className=" leading-9 md:leading-[3rem]" key={index}>
                         <span className=" font-bold">{`${index + 1} . ${point.title} - `}</span>
-                        <pre style={{whiteSpace:'pre-wrap', fontSize:'inherit', color:'inherit', border:'initial', padding:'initial', fontFamily:'inherit'}} className=" w-full">{point.caption}</pre>
+                        <pre style={{ whiteSpace: 'pre-wrap', fontSize: 'inherit', color: 'inherit', border: 'initial', padding: 'initial', fontFamily: 'inherit' }} className=" w-full">{point.caption}</pre>
                     </li>)}
                 </ol>
             </div>
+
+            <div className=' text-lg py-6 flex justify-center'>
+                <a href="https://discord.com/invite/5KzuKgayP5" className='flex items-center gap-2' target="_blank" rel="noopener noreferrer">
+                    <h1 className=' border-b-2 border-black'>Join Our Discord</h1>
+                    <SiDiscord />
+                </a>
+            </div>
+
+            <SponsorSection />
 
         </PageLayout>
     )
